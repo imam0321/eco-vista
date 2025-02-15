@@ -7,11 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container: {
+          center: true,
+          padding: {
+              DEFAULT: "1rem",
+          },
       },
-    },
+      fontFamily: {
+          inter: ["Inter", "sans-serif"],
+      },
+  },
   },
   plugins: [],
 };
