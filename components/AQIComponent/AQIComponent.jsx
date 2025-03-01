@@ -5,7 +5,6 @@ import Image from "next/image";
 
 export default async function AQIComponent({ lat, lon }) {
   const { main, components } = await getAQIData(lat, lon);
-  console.log(main, components);
 
   const getAQIRating = (aqi) => {
     switch (aqi) {
