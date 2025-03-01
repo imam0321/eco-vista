@@ -1,7 +1,9 @@
+import LocationDetector from "@/components/LocationDetector/LocationDetector";
+
 export default function Home() {
   return (
     <>
-      <h1>Eco Vista</h1>
+      <LocationDetector/>
     </>
   );
 }
